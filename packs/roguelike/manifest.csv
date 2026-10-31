@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+roguelike,1.0.0,roguelike,top_down,turn_or_realtime,tile_2d,shared:rarities,room_templates.csv|encounter_tables.csv|item_pools.csv,Procedural rooms encounters pools affixes and meta progression

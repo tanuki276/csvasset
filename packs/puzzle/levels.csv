@@ -1,0 +1,4 @@
+id,width,height,move_par,push_par,mechanics,goal_id
+intro_01,8,6,18,4,push,all_crates
+ice_01,10,8,32,7,push|ice_slide,all_crates
+switch_01,12,9,45,10,push|pressure_plate|door_channel,exit_open

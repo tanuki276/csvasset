@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+tower_defense,1.0.0,tower-defense,top_down,fixed_tick,path_2d,shared:damage_channels,towers.csv|enemies.csv|waves.csv,Towers enemies waves paths and upgrades

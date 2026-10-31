@@ -1,0 +1,4 @@
+id,target_speed_multiplier,brake_lookahead_px,corner_aggression,overtake_bias,mistake_chance
+rookie,0.82,220,0.5,0.25,0.08
+club,0.94,180,0.7,0.5,0.035
+pro,1.02,150,0.9,0.72,0.01

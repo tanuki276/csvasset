@@ -1,0 +1,5 @@
+id,trigger,condition,effect,priority,reversible
+push,move_into,target.pushable=1,push_target_one_tile,20,1
+ice_slide,enter_tile,tile.tag=ice,continue_until_blocked,30,1
+pressure_plate,occupy,piece.weight>=1,set_channel_active,40,1
+door_channel,channel_change,channel.active=1,open_door,50,1

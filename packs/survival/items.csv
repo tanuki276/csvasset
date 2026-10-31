@@ -1,0 +1,10 @@
+id,category,stack_max,durability,tags
+wood,material,99,0,material
+stone,material,99,0,material
+fiber,material,99,0,material
+berry,food,20,0,food
+rope,component,30,0,component
+iron_ingot,material,99,0,material|metal
+stone_axe,tool,1,80,axe
+iron_pickaxe,tool,1,140,pickaxe
+campfire,placeable,5,0,structure|heat

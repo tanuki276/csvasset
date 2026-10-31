@@ -1,0 +1,5 @@
+wave_id,order,enemy_id,count,spawn_interval_sec,start_delay_sec,lane_id
+wave_01,1,runner,12,0.7,2,main
+wave_02,2,brute,8,1.1,5,main
+wave_03,3,wisp,14,0.55,5,air
+wave_10,10,boss_ogre,1,0,8,main

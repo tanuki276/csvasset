@@ -1,0 +1,4 @@
+id,laps,length_px,checkpoint_count,default_surface,ai_line_id,par_time_sec,weather
+harbor_loop,3,8200,10,asphalt,harbor_racing,96.0,clear
+forest_rally,2,10500,12,gravel,forest_racing,118.0,rain
+ice_ring,4,6900,8,ice,ice_racing,110.0,snow

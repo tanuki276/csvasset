@@ -1,0 +1,12 @@
+id,category,continuous,description
+move_left,movement,1,negative horizontal movement
+move_right,movement,1,positive horizontal movement
+move_up,movement,1,negative vertical movement
+move_down,movement,1,positive vertical movement
+jump,movement,0,jump/confirm traversal
+attack_primary,combat,0,primary attack
+attack_secondary,combat,0,secondary attack
+ability_1,combat,0,ability slot 1
+dash,movement,0,dash or evade
+interact,context,0,interact
+pause,system,0,pause

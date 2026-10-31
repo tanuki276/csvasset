@@ -1,0 +1,3 @@
+id,duration_sec,scroll_speed_px_sec,boss_enemy_id,music_key,background_key
+stage_1,75,80,boss_core,music_stage_1,bg_clouds
+stage_2,90,95,boss_core,music_stage_2,bg_orbit

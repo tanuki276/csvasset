@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+survival,1.0.0,survival,top_down,realtime,world_2d,shared:rarities,resources.csv|recipes.csv|structures.csv,Gather crafting needs building spawn and day cycle

@@ -1,0 +1,4 @@
+id,mass_kg,engine_force,brake_force,max_speed_px_sec,steer_deg_sec,grip,drag,boost_capacity
+kart_light,180,3100,3800,520,150,1.05,0.012,100
+rally_mid,260,3900,4400,560,130,1.15,0.014,80
+muscle_heavy,360,5200,5000,600,105,0.98,0.016,60

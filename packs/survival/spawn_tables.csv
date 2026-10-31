@@ -1,0 +1,5 @@
+table_id,entity_id,weight,min_group,max_group,time_window,biome_tag
+forest_day,rabbit,65,1,3,day,forest
+forest_day,boar,35,1,2,day,forest
+forest_night,wolf,70,1,4,night,forest
+forest_night,owl,30,1,2,night,forest

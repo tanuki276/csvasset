@@ -1,0 +1,4 @@
+id,hp,walk_px_sec,run_px_sec,jump_velocity_px_sec,weight,stun_resist,move_set_id
+striker,100,120,220,350,1.0,0.0,striker_base
+bruiser,140,95,175,300,1.35,0.25,bruiser_base
+acrobat,85,135,250,410,0.82,-0.1,acrobat_base

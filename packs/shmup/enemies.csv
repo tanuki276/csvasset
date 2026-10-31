@@ -1,0 +1,5 @@
+id,hp,move_pattern,move_speed_px_sec,contact_damage,shot_pattern,score,drop_weight
+drone_red,3,straight,120,1,single_aimed,100,80
+drone_blue,5,sine,100,1,fan_3,180,50
+carrier,18,slow_arc,55,1,ring_8,800,20
+boss_core,800,boss_anchor,35,2,phase_script,50000,0

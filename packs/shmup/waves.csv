@@ -1,0 +1,5 @@
+id,stage_id,start_sec,enemy_id,count,spawn_interval_ms,formation,path_id
+s1_w01,stage_1,2.0,drone_red,8,280,line,center_down
+s1_w02,stage_1,9.5,drone_blue,6,420,vee,left_sine
+s1_w03,stage_1,20.0,carrier,2,2200,pair,wide_arc
+s1_boss,stage_1,60.0,boss_core,1,0,boss,boss_entry

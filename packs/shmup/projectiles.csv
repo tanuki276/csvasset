@@ -1,0 +1,5 @@
+id,speed_px_sec,radius_px,lifetime_sec,pierce,homing_turn_deg_sec,damage_channel
+player_bullet,680,3,1.8,0,0,physical
+pierce_laser,900,2,1.2,4,0,electric
+heavy_round,560,5,2.0,1,0,physical
+enemy_orb,190,6,6.0,0,0,fire

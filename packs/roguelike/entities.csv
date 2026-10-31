@@ -1,0 +1,6 @@
+id,kind,base_threat,tags
+melee_grunt,enemy,1.0,melee
+ranged_grunt,enemy,1.2,ranged
+charger,enemy,1.5,melee|burst
+elite_guard,enemy,3.5,elite|armored
+treasure_chest,object,0,reward

@@ -1,0 +1,5 @@
+id,hp,footprint_w_tiles,footprint_h_tiles,snap_grid,provides_station,heat_radius_tiles,storage_slots
+campfire,100,1,1,1,cook,4,0
+workbench,180,2,1,1,workbench,0,4
+chest,120,1,1,1,,0,20
+wall_wood,250,1,1,1,,0,0

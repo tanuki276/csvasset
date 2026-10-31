@@ -1,0 +1,5 @@
+id,slot,cost,engine_force_multiplier,grip_multiplier,mass_delta_kg,boost_capacity_add
+engine_stage1,engine,1200,1.08,1.0,4,0
+tires_sport,tires,900,1.0,1.1,0,0
+weight_cut,chassis,1500,1.0,0.98,-18,0
+boost_tank,utility,1300,1.0,1.0,6,30

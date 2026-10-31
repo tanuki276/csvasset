@@ -1,0 +1,3 @@
+id,width_px,height_px,tuning_id,movement_profile_id,checkpoint_count,time_limit_sec,tags
+forest_run,2304,576,responsive,metroidvania,3,0,outdoor
+clocktower,3072,896,precision,speedrun,4,180,vertical|timed

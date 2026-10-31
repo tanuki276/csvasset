@@ -1,0 +1,7 @@
+id,category,armor_interaction,description
+physical,direct,reduced,kinetic damage
+fire,elemental,resistance,fire/heat
+ice,elemental,resistance,cold/frost
+electric,elemental,resistance,electric
+toxic,dot,resistance,poison/toxin
+true,special,ignored,ignores normal mitigation

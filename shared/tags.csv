@@ -1,0 +1,8 @@
+id,category,description
+boss,role,boss or major encounter
+elite,role,elite variant
+flying,movement,ignores ground-only blockers
+armored,defense,high physical mitigation
+hazard,world,damaging environment
+collectible,world,collectible object
+objective,mission,mission-critical object

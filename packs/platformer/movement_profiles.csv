@@ -1,0 +1,4 @@
+id,ground_friction,air_drag,wall_slide_px_sec,dash_speed_px_sec,dash_duration_ms,wall_jump_x_px_sec,wall_jump_y_px_sec
+basic,0.82,0.995,120,0,0,0,0
+metroidvania,0.8,0.995,105,480,160,260,410
+speedrun,0.87,0.998,140,560,120,290,430

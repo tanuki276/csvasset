@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+racing,1.0.0,racing,top_down,fixed_tick,track_2d,,vehicles.csv|tracks.csv|surfaces.csv,Top-down racing vehicles tracks surfaces AI upgrades

@@ -1,0 +1,4 @@
+event_id,base_score,combo_gain,combo_decay_sec,graze_value,notes
+enemy_kill,100,1,2.5,0,multiplied by enemy score ratio
+graze,10,0,0,10,near miss
+wave_clear,1000,3,4.0,0,bonus

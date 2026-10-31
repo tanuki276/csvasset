@@ -1,0 +1,5 @@
+id,damage,knockback_x_px_sec,knockback_y_px_sec,reset_to_checkpoint,active_sec,inactive_sec
+spikes,1,0,260,0,9999,0
+pit,1,0,0,1,9999,0
+crusher,99,0,0,1,1.2,1.8
+flame_jet,1,140,80,0,0.8,1.5

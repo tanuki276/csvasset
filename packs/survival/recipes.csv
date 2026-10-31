@@ -1,0 +1,5 @@
+id,station,ingredients,output_id,output_qty,craft_sec,unlock_tier
+rope,hand,fiber:3,rope,1,1.5,0
+stone_axe,hand,wood:2|stone:3|rope:1,stone_axe,1,3.0,0
+campfire,hand,wood:6|stone:8,campfire,1,5.0,0
+iron_pickaxe,workbench,wood:3|iron_ingot:4|rope:1,iron_pickaxe,1,7.0,2

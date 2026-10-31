@@ -1,0 +1,4 @@
+id,projectile_id,fire_interval_ms,burst_count,burst_gap_ms,spread_deg,damage,energy_cost
+spread_cannon,player_bullet,90,1,0,18,1,0
+laser_lance,pierce_laser,140,1,0,0,3,0
+heavy_burst,heavy_round,260,3,45,8,2,0

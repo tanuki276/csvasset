@@ -1,52 +1,61 @@
 # CSVASSET
 
-高精度な **2Dゲーム向けCSVデータセット**。  
-ゲームロジックとコンテンツを分離し、敵・戦闘・装備・アイテム・ワールド・NPC・クエスト・クラフト・アセット参照を安定したIDで接続します。
+**複数ジャンルの2Dゲームで再利用できる、CSVベースのゲームデータ・アセットライブラリ**です。
 
-## 設計目標
+このリポジトリは「1本のゲームをCSV化したもの」ではありません。`shared/` の共通語彙と `packs/` のジャンル別データパックを組み合わせて使います。
 
-- **参照整合性**: 外部キー相当のIDを明示し、存在しないIDを検出できます。
-- **決定的なデータ**: ランタイムの暗黙デフォルトを減らし、敵耐性などは明示的に持ちます。
-- **段階的バランス**: Tier 1–5、プレイヤーLv1–30を想定した一貫した成長曲線。
-- **エンジン非依存**: Phaser / Godot / Unity / 独自エンジンで読み込みやすい素朴なCSV。
-- **安定キー**: ファイル名ではなく `id` / `key` をゲーム側APIとして扱います。
-- **検証可能**: `tools/validate_csv.py` で参照、確率、座標、重複、型の基本検査が可能です。
+## 設計原則
 
-## ディレクトリ
+1. **Pack-first** — 各ジャンルは独立スキーマを持ち、不要な概念を強制しない。
+2. **Composable** — 共通アセット、タグ、難易度、入力などは `shared/` から任意利用。
+3. **Stable IDs** — ファイル名ではなく文字列IDを公開APIとして扱う。
+4. **Explicit units** — sec / ms / px / tile / multiplier / chance を明示。
+5. **Engine-neutral** — Phaser / Godot / Unity / 自作エンジンに依存しない。
+6. **Validation-first** — 構造・主キー・参照・基本レンジをCI検証。
+7. **Examples are data** — 空テンプレートではなく調整可能な実データ例を同梱。
 
-- `data/core/` — 属性、ダメージ種別、状態異常、難易度
-- `data/progression/` — レベル曲線、クラス
-- `data/combat/` — スキル、飛翔体
-- `data/enemies/` — 敵本体、AI、耐性、使用スキル
-- `data/equipment/` — 武器、防具、Affix
-- `data/items/` — 消耗品・素材・クエストアイテム
-- `data/loot/` — ドロップテーブル
-- `data/world/` — バイオーム、タイル、ステージ、接続、スポーン
-- `data/npc/` — NPC、ショップ、会話
-- `data/quests/` — クエストと目標
-- `data/crafting/` — レシピ
-- `data/assets/` — スプライト/音声等の安定キーとメタデータ（バイナリ自体は同梱しません）
-- `data/system/` — 入力アクション、ゲーム定数
-- `maps/` — 16×12のサンプルCSVタイルマップ
-- `docs/` — スキーマ・バランス設計
-- `tools/` — データ検証スクリプト
+## Packs
 
-## CSV規約
+| Pack | 想定ジャンル | 主なデータ |
+|---|---|---|
+| `action_rpg` | 2D ARPG / Zelda-like | 敵、戦闘、装備、クエスト、NPC、マップ、クラフト |
+| `platformer` | 横スクロール / Metroidvania | 移動、敵、ハザード、収集物、チェックポイント |
+| `shmup` | 縦/横STG | 自機、武器、弾、敵、ウェーブ、スコア |
+| `roguelike` | ローグライク / ローグライト | 部屋、遭遇、アイテムプール、Affix、メタ進行 |
+| `tactics` | SRPG / Grid tactics | ユニット、クラス、地形、アビリティ、勝利条件 |
+| `survival` | Survival / Crafting | 資源、Needs、レシピ、建築、スポーン、時間帯 |
+| `tower_defense` | Tower Defense | タワー、敵、ウェーブ、経路、アップグレード |
+| `racing` | 2D top-down racing | 車両、路面、トラック、AI、アップグレード |
+| `puzzle` | Puzzle / Sokoban系 | ピース、ルール、レベル、目標、難易度 |
+| `brawler` | Beat'em up / arena | ファイター、技、コンボ、ヒットボックス、アリーナ |
 
-- UTF-8 / カンマ区切り / 1行目ヘッダー
-- IDは `snake_case`
-- 空文字は「未指定」。`null` 文字列は使いません
-- ブール値は `0/1`
-- 比率は原則 `0.0–1.0`
-- 時間は秒、距離はタイル、画像寸法はpx
-- 互換性を壊す列変更時は `save_schema_version` を更新
+## Shared
 
-## 最初に見るファイル
+`shared/` は全ゲームへ強制する基底クラスではありません。必要なものだけ使います。
 
-1. `docs/SCHEMA.md`
-2. `docs/BALANCE.md`
-3. `data/world/stages.csv`
-4. `data/enemies/enemies.csv`
-5. `tools/validate_csv.py`
+- `assets.csv` — 画像・音声・フォントの論理キー
+- `tags.csv` — 共通タグ語彙
+- `difficulties.csv` — 難易度プリセット
+- `input_actions.csv` — 物理入力から独立した論理アクション
+- `rarities.csv` — レアリティ
+- `damage_channels.csv` — 汎用ダメージチャネル
+- `currencies.csv` — 通貨
+- `localization.csv` — ローカライズ文字列例
 
-このリポジトリは「ゲーム素材そのもの」ではなく、**ゲームを駆動する高品質なデータアセット**を提供します。画像・音声パスは `data/assets/` で参照契約だけを定義しています。
+## 組み合わせ例
+
+- Platformer → `shared/` + `packs/platformer/`
+- Roguelite STG → `packs/shmup/` + `packs/roguelike/`
+- Action platformer → `packs/platformer/` + `packs/brawler/`
+- Base-defense survival → `packs/survival/` + `packs/tower_defense/`
+- SRPG → `shared/` + `packs/tactics/`
+
+複数Packを混ぜる場合はID名前空間を維持してください。詳細は `catalog/compatibility.csv` を参照します。
+
+## Validation
+
+```bash
+python tools/validate_csvasset.py
+```
+
+GitHub Actionsでもpush / pull request時に検証します。規約は `docs/PACK_CONTRACT.md` と `docs/CONVENTIONS.md` を参照してください。

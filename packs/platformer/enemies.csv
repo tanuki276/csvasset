@@ -1,0 +1,5 @@
+id,hp,contact_damage,move_px_sec,behavior,turn_at_edge,jump_interval_sec,tags
+walker,2,1,55,patrol,1,0,
+hopper,3,1,35,hop,1,1.4,
+turret,4,1,0,stationary_shoot,0,0,armored
+winger,2,1,85,sine_fly,0,0,flying

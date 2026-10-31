@@ -1,0 +1,6 @@
+id,sort_order,drop_weight,value_multiplier
+common,10,100,1.0
+uncommon,20,45,1.5
+rare,30,18,2.4
+epic,40,6,4.0
+legendary,50,1,7.0

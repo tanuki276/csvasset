@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+tactics,1.0.0,tactics,isometric_or_top_down,turn_based,tile_grid,shared:damage_channels,units.csv|classes.csv|terrain.csv,Grid tactics units classes terrain skills objectives

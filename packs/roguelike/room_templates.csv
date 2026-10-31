@@ -1,0 +1,5 @@
+id,width_tiles,height_tiles,doors,weight,min_depth,max_depth,encounter_table_id,tags
+cross_small,9,9,n|e|s|w,30,1,99,common_floor,
+corridor_long,13,5,e|w,22,1,99,light_floor,
+treasure_nook,7,7,s,8,2,99,treasure,reward
+elite_arena,11,11,n|s,6,3,99,elite_floor,elite

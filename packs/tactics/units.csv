@@ -1,0 +1,5 @@
+id,class_id,level,hp,attack,defense,initiative,faction,ability_set
+hero_aria,vanguard,5,58,17,14,9,player,vanguard_basic
+hero_len,ranger,5,42,18,8,15,player,ranger_basic
+enemy_guard,vanguard,4,50,14,12,8,enemy,vanguard_basic
+enemy_mage,mage,4,34,19,6,11,enemy,mage_basic

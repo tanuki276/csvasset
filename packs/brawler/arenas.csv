@@ -1,0 +1,3 @@
+id,width_px,floor_y_px,camera_min_x,camera_max_x,hazards,max_players
+warehouse,2048,480,0,2048,,4
+subway,2560,500,0,2560,train_warning,4

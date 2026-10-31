@@ -1,0 +1,8 @@
+source_pack,target_pack,pattern,integration_notes
+roguelike,shmup,item_pool_overlay,Use roguelike pools and affixes for weapon upgrades between stages.
+roguelike,action_rpg,run_generator,Use room and encounter concepts for dungeon-run modes; keep IDs namespaced.
+survival,action_rpg,crafting_extension,Add needs and structures without changing ARPG combat tables.
+tactics,action_rpg,turn_based_variant,Reuse narrative/item IDs but keep tactical unit stats separate.
+racing,roguelike,run_modifiers,Use roguelike affixes as temporary vehicle modifiers.
+platformer,brawler,movement_plus_combat,Combine platformer movement tuning with brawler move/hitbox data.
+tower_defense,survival,base_defense,Use TD waves/towers for raid events and automated defenses.

@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+shmup,1.0.0,shoot-em-up,top_down,fixed_tick,pixel_2d,shared:damage_channels|shared:rarities,ships.csv|weapons.csv|waves.csv,Shooter ships weapons bullets waves and score

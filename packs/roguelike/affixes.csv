@@ -1,0 +1,5 @@
+id,target,stat,operation,min_value,max_value,rarity_weight,conflict_group
+swift,weapon,attack_speed,mul,1.08,1.18,40,speed
+heavy,weapon,damage,mul,1.15,1.35,32,tempo
+vampiric,weapon,lifesteal,add,0.02,0.06,10,sustain
+fragile,armor,max_hp,mul,0.75,0.9,12,defense

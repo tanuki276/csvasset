@@ -1,0 +1,5 @@
+id,solid,pushable,pullable,goal_compatible,weight,tags
+player,1,0,0,0,1,actor
+crate,1,1,0,1,2,objective
+ice_crate,1,1,0,1,1,sliding
+key_block,1,1,0,1,2,key

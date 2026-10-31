@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+action_rpg,1.1.0,action-rpg,top_down,realtime,tile_2d,,data/enemies/enemies.csv|data/combat/skills.csv|data/world/stages.csv,High-detail reference pack with combat world quests crafting

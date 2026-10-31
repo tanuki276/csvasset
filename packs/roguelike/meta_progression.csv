@@ -1,0 +1,5 @@
+id,cost_currency,cost,prerequisite_id,effect_key,effect_value,max_rank
+start_hp_1,gem,5,,start_hp_add,5,1
+start_hp_2,gem,12,start_hp_1,start_hp_add,5,1
+reroll_1,gem,15,,shop_rerolls_add,1,1
+rare_bias,gem,30,reroll_1,rare_weight_mul,1.1,3

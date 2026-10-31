@@ -1,0 +1,5 @@
+id,enemy_hp_multiplier,enemy_damage_multiplier,reward_multiplier,assist_multiplier
+story,0.75,0.7,1.0,1.25
+normal,1.0,1.0,1.0,1.0
+hard,1.25,1.2,1.15,0.9
+expert,1.55,1.45,1.35,0.8

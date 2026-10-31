@@ -1,0 +1,5 @@
+pool_id,item_id,rarity,weight,min_depth,max_depth
+general,boots_swift,uncommon,30,1,99
+general,glass_charm,rare,14,2,99
+general,ember_core,epic,5,4,99
+boss,crown_void,legendary,1,5,99

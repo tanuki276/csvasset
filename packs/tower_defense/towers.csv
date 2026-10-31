@@ -1,0 +1,5 @@
+id,cost,range_tiles,damage,damage_channel,attack_interval_sec,targeting,projectile_speed_tiles_sec,max_targets
+arrow_tower,60,4.5,8,physical,0.7,first,10,1
+cannon_tower,110,4.0,26,physical,1.8,cluster,7,4
+frost_tower,95,3.8,3,ice,0.8,first,9,1
+tesla_tower,160,3.5,18,electric,1.2,strongest,0,3

@@ -1,0 +1,4 @@
+id,max_value,start_value,decay_per_game_hour,critical_threshold,critical_effect,restore_item_tag
+hunger,100,90,4.0,15,hp_drain,food
+thirst,100,85,6.0,18,stamina_penalty,drink
+temperature,100,50,0.0,20,cold_damage,heat

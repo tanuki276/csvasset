@@ -1,0 +1,5 @@
+id,grip_multiplier,rolling_resistance,speed_cap_multiplier,particle_tag,offroad
+asphalt,1.0,1.0,1.0,,0
+gravel,0.82,1.15,0.92,dust,1
+mud,0.65,1.4,0.75,mud,1
+ice,0.38,0.9,0.95,ice,0

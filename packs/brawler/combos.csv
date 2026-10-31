@@ -1,0 +1,4 @@
+id,input_sequence,move_sequence,max_gap_ms,meter_cost,condition
+basic_3,light|light|heavy,jab|jab|hook,450,0,grounded
+launcher,down+heavy,uppercut,0,0,grounded
+bruiser_slam,forward+heavy,slam,0,10,grounded

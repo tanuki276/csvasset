@@ -1,0 +1,5 @@
+id,slot,base_power,tags
+boots_swift,feet,8,speed
+glass_charm,trinket,14,damage|fragile
+ember_core,trinket,24,fire
+crown_void,head,40,boss|void

@@ -1,0 +1,4 @@
+id,stage_id,x_px,y_px,order,autosave
+forest_start,forest_run,64,320,0,1
+forest_mid,forest_run,1024,256,1,1
+forest_peak,forest_run,1984,160,2,1

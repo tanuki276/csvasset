@@ -1,0 +1,4 @@
+id,precision,max_wallet,description
+coin,0,9999999,generic soft currency
+gem,0,99999,rare currency
+score,0,999999999,non-persistent score

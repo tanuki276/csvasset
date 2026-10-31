@@ -1,0 +1,5 @@
+id,kind,value,respawn,requires_ability,score
+coin_small,currency,1,0,,100
+heart,heal,1,0,,50
+dash_shard,upgrade,1,0,dash,500
+secret_gem,secret,1,0,wall_jump,2000

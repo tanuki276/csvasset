@@ -1,0 +1,4 @@
+id,type,target_id,target_count,turn_limit,failure_on_target_death,description
+eliminate_all,eliminate_faction,enemy,0,0,0,Defeat all enemies
+hold_point,occupy_tile,objective_a,3,12,0,Hold objective for 3 turns
+escort,reach_tile,exit_north,1,15,1,Escort protected unit

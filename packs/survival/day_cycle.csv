@@ -1,0 +1,5 @@
+phase_id,start_hour,end_hour,light_multiplier,temperature_delta,spawn_profile
+dawn,5,8,0.65,-2,transition
+day,8,18,1.0,4,day
+dusk,18,21,0.6,-1,transition
+night,21,29,0.25,-6,night

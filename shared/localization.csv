@@ -1,0 +1,7 @@
+key,locale,text
+ui.start,en,Start
+ui.start,ja,スタート
+ui.pause,en,Pause
+ui.pause,ja,ポーズ
+ui.retry,en,Retry
+ui.retry,ja,リトライ

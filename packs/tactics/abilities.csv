@@ -1,0 +1,5 @@
+id,range_min_tiles,range_max_tiles,area_shape,area_size,power,damage_channel,ap_cost,cooldown_turns,target_rule
+power_strike,1,1,single,1,18,physical,2,1,enemy
+arrow_shot,2,6,single,1,14,physical,2,0,enemy_los
+heal,0,4,single,1,20,true,2,2,ally
+fire_burst,2,5,diamond,1,16,fire,3,2,tile_los

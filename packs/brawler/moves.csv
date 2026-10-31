@@ -1,0 +1,6 @@
+id,move_set_id,startup_frames,active_frames,recovery_frames,damage,stun_frames,knockback_x,knockback_y,damage_channel,cancel_tags
+jab,striker_base,5,3,8,6,12,45,0,physical,chain_light
+hook,striker_base,9,4,14,12,20,100,10,physical,finisher
+uppercut,striker_base,11,5,20,16,28,60,180,physical,launcher
+slam,bruiser_base,18,6,26,24,35,120,80,physical,armor
+air_kick,acrobat_base,6,5,10,9,15,85,45,physical,air_chain

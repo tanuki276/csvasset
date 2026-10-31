@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+puzzle,1.0.0,puzzle,grid,turn_based,tile_grid,,pieces.csv|mechanics.csv|levels.csv,Grid puzzle pieces mechanics levels and goals

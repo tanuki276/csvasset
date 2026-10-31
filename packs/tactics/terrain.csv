@@ -1,0 +1,6 @@
+id,move_cost,height,defense_bonus,evasion_bonus,blocks_los,walkable,tags
+plain,1,0,0,0,0,1,
+forest,2,0,2,10,0,1,cover
+wall,99,2,0,0,1,0,solid
+high_ground,1,1,1,0,0,1,elevated
+mud,3,0,0,-5,0,1,slow

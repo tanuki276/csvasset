@@ -1,0 +1,5 @@
+id,tower_id,tier,cost,damage_multiplier,range_add_tiles,interval_multiplier,special
+arrow_t2,arrow_tower,2,80,1.45,0.5,0.92,
+cannon_t2,cannon_tower,2,140,1.35,0.3,0.95,splash_radius+0.5
+frost_t2,frost_tower,2,120,1.2,0.4,0.9,slow_strength+0.1
+tesla_t2,tesla_tower,2,190,1.35,0.2,0.9,chain_targets+1

@@ -1,0 +1,5 @@
+set_id,ability_id,unlock_level,slot
+vanguard_basic,power_strike,1,1
+ranger_basic,arrow_shot,1,1
+medic_basic,heal,1,1
+mage_basic,fire_burst,1,1

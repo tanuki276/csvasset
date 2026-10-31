@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+brawler,1.0.0,brawler,side_view,realtime,pixel_2d,shared:damage_channels,fighters.csv|moves.csv|combos.csv,Beat-em-up and arena fighter move data

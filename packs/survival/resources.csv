@@ -1,0 +1,5 @@
+id,category,stack_max,tool_tag,harvest_sec,yield_min,yield_max,respawn_hours
+wood,material,99,axe,1.2,2,4,48
+stone,material,99,pickaxe,1.5,2,5,72
+fiber,material,99,,0.6,1,3,24
+berry,food,20,,0.4,2,5,18

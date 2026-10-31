@@ -1,0 +1,11 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+action_rpg,1.1.0,action-rpg,top_down,realtime,tile_2d,,data/enemies/enemies.csv|data/combat/skills.csv,Full reference ARPG pack
+platformer,1.0.0,platformer,side_view,realtime,pixel_2d,shared:input_actions,player_tuning.csv|movement_profiles.csv|hazards.csv,Platforming and metroidvania data
+shmup,1.0.0,shoot-em-up,top_down,fixed_tick,pixel_2d,shared:damage_channels|shared:rarities,ships.csv|weapons.csv|waves.csv,Vertical/horizontal shooter data
+roguelike,1.0.0,roguelike,top_down,turn_or_realtime,tile_2d,shared:rarities,room_templates.csv|encounter_tables.csv|item_pools.csv,Procedural run structure
+tactics,1.0.0,tactics,isometric_or_top_down,turn_based,tile_grid,shared:damage_channels,units.csv|classes.csv|terrain.csv,Grid tactics / SRPG data
+survival,1.0.0,survival,top_down,realtime,world_2d,shared:rarities,resources.csv|recipes.csv|structures.csv,Gather craft survive data
+tower_defense,1.0.0,tower-defense,top_down,fixed_tick,path_2d,shared:damage_channels,towers.csv|enemies.csv|waves.csv,Tower defense economy and waves
+racing,1.0.0,racing,top_down,fixed_tick,track_2d,,vehicles.csv|tracks.csv|surfaces.csv,2D top-down racing
+puzzle,1.0.0,puzzle,grid,turn_based,tile_grid,,pieces.csv|mechanics.csv|levels.csv,Grid puzzle / Sokoban-style
+brawler,1.0.0,brawler,side_view,realtime,pixel_2d,shared:damage_channels,fighters.csv|moves.csv|combos.csv,Beat-em-up / arena combat

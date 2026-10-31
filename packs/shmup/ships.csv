@@ -1,0 +1,4 @@
+id,hp,move_px_sec,focus_move_px_sec,hitbox_radius_px,bombs,weapon_id,option_slots
+falcon,3,300,145,3,3,spread_cannon,2
+needle,2,340,125,2,2,laser_lance,1
+bulwark,5,245,130,4,4,heavy_burst,3

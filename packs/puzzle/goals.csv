@@ -1,0 +1,3 @@
+id,type,target_tag,required_count,allow_extra,description
+all_crates,occupy_goals,objective,-1,0,all objective pieces on goals
+exit_open,reach_exit,player,1,1,player reaches exit after channel puzzle
