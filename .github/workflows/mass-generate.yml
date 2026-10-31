@@ -1,0 +1,57 @@
+name: mass-generate-csvasset
+
+on:
+  workflow_dispatch:
+    inputs:
+      rows_per_dataset:
+        description: Rows per generated dataset
+        required: true
+        default: "10000"
+      shard_rows:
+        description: Rows per CSV shard
+        required: true
+        default: "5000"
+      seed:
+        description: Deterministic generation seed
+        required: true
+        default: "2762026"
+  push:
+    paths:
+      - "generator/**"
+      - "catalog/generated_datasets.csv"
+      - ".github/workflows/mass-generate.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ROWS: ${{ github.event_name == 'workflow_dispatch' && inputs.rows_per_dataset || '10000' }}
+      SHARD_ROWS: ${{ github.event_name == 'workflow_dispatch' && inputs.shard_rows || '5000' }}
+      SEED: ${{ github.event_name == 'workflow_dispatch' && inputs.seed || '2762026' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate CSVASSET
+        run: |
+          python generator/generate_mass_assets.py \
+            --out generated \
+            --rows-per-dataset "$ROWS" \
+            --shard-rows "$SHARD_ROWS" \
+            --seed "$SEED"
+      - name: Validate every generated row
+        run: python generator/validate_generated.py generated
+      - name: Show summary
+        run: cat generated/summary.json
+      - name: Upload generated CSVASSET
+        uses: actions/upload-artifact@v4
+        with:
+          name: csvasset-${{ env.ROWS }}x30-seed-${{ env.SEED }}
+          path: generated/
+          if-no-files-found: error
+          retention-days: 90
