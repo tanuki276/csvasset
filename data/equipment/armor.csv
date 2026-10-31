@@ -1,0 +1,11 @@
+id,name,slot,tier,defense,resistance,speed_bonus,value
+cloth_tunic,Cloth Tunic,body,1,2,5,0.0,60
+leather_vest,Leather Vest,body,1,4,3,0.0,75
+iron_cuirass,Iron Cuirass,body,2,9,4,-0.03,220
+ranger_coat,Ranger Coat,body,2,6,7,0.02,240
+sage_robe,Sage Robe,body,3,5,14,0.0,500
+knight_plate,Knight Plate,body,4,18,9,-0.05,950
+void_mantle,Void Mantle,body,5,10,22,0.02,1500
+wood_buckler,Wood Buckler,offhand,1,4,1,-0.01,70
+iron_shield,Iron Shield,offhand,2,9,2,-0.03,230
+tower_shield,Tower Shield,offhand,4,17,5,-0.07,900

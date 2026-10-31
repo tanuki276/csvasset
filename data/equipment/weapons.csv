@@ -1,0 +1,13 @@
+id,name,weapon_type,tier,attack,attack_speed,move_speed_mul,crit_chance,element,value
+iron_sword,Iron Sword,sword,1,12,1.0,1.1,0.05,neutral,80
+steel_sword,Steel Sword,sword,2,20,1.0,1.08,0.06,neutral,220
+flamebrand,Flamebrand,sword,4,38,0.96,1.05,0.08,fire,900
+oak_bow,Oak Bow,bow,1,10,0.95,1.15,0.08,neutral,90
+hunter_bow,Hunter Bow,bow,2,18,0.96,1.14,0.1,neutral,240
+storm_bow,Storm Bow,bow,4,34,0.92,1.12,0.12,lightning,920
+apprentice_staff,Apprentice Staff,staff,1,11,1.1,0.95,0.05,neutral,85
+sage_staff,Sage Staff,staff,3,27,1.12,0.92,0.07,light,520
+void_staff,Void Staff,staff,5,46,1.15,0.9,0.1,dark,1500
+stone_axe,Stone Axe,axe,1,15,0.92,0.88,0.04,earth,100
+war_axe,War Axe,axe,3,32,0.9,0.84,0.06,neutral,580
+frost_axe,Frost Axe,axe,5,50,0.88,0.82,0.08,ice,1600

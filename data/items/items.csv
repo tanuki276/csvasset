@@ -1,0 +1,17 @@
+id,name,category,tier,value,max_stack,use_effect,use_value
+potion_small,Small Potion,consumable,1,25,12,heal_hp,40
+potion_medium,Medium Potion,consumable,2,65,8,heal_hp,90
+potion_large,Large Potion,consumable,4,180,5,heal_hp,180
+ether_small,Small Ether,consumable,1,35,10,heal_mp,25
+antidote,Antidote,consumable,1,30,10,cure_status,poison
+bomb_fire,Fire Bomb,consumable,2,80,5,damage,55
+herb_green,Green Herb,material,1,8,99,,
+ore_iron,Iron Ore,material,1,12,99,,
+hide_beast,Beast Hide,material,1,10,99,,
+crystal_blue,Blue Crystal,material,2,30,99,,
+ember_core,Ember Core,material,3,60,99,,
+frost_core,Frost Core,material,3,60,99,,
+storm_core,Storm Core,material,3,60,99,,
+void_shard,Void Shard,material,5,220,99,,
+quest_sunseal,Sunseal Fragment,quest,0,0,99,,
+quest_ancient_key,Ancient Key,quest,0,0,1,,

@@ -1,0 +1,26 @@
+id,name,tier,biome,element,role,hp,attack,defense,resistance,move_speed,aggro_range,leash_range,xp,loot_table,ai_profile
+slime_green,Green Slime,1,meadow,neutral,swarm,20,4,1,2,1.65,6,10,6,slime_drop,swarm
+wolf,Grey Wolf,1,meadow,neutral,skirmisher,22,6,1,2,2.75,6,10,6,wolf_drop,skirmisher
+bandit,Bandit,1,meadow,neutral,fighter,24,6,2,2,2.2,6,10,6,bandit_drop,fighter
+bee,Giant Bee,1,forest,nature,ranged,17,6,1,2,2.97,8,10,6,bee_drop,ranged
+boar,Wild Boar,1,forest,earth,charger,29,7,2,2,2.09,6,10,6,boar_drop,charger
+mushroom,Sporecap,2,forest,nature,controller,43,8,2,2,1.72,6,10,12,mushroom_drop,controller
+skeleton,Skeleton Guard,2,ruins,dark,fighter,39,8,2,2,1.98,6,10,12,skeleton_drop,fighter
+archer_skeleton,Skeleton Archer,2,ruins,dark,ranged,32,9,2,2,2.09,8,10,12,skeleton_archer_drop,ranged
+wisp,Blue Wisp,2,ruins,lightning,caster,28,9,1,2,2.64,8,10,12,wisp_drop,caster
+cave_bat,Cave Bat,2,cave,neutral,skirmisher,28,8,1,2,3.19,6,10,12,bat_drop,skirmisher
+rock_crab,Rock Crab,2,cave,earth,tank,53,8,3,2,1.32,6,10,12,crab_drop,tank
+venom_spider,Venom Spider,3,cave,nature,controller,57,13,3,4,2.64,6,10,24,spider_drop,controller
+swamp_blob,Swamp Blob,3,swamp,nature,swarm,63,12,4,5,1.76,6,10,24,swamp_blob_drop,swarm
+bog_shaman,Bog Shaman,3,swamp,dark,caster,54,14,3,5,1.98,8,10,24,bog_shaman_drop,caster
+crocodile,Marsh Crocodile,3,swamp,water,charger,82,14,4,4,1.87,6,10,24,croc_drop,charger
+fire_imp,Fire Imp,4,volcano,fire,ranged,84,22,5,8,2.64,8,10,48,imp_drop,ranged
+lava_golem,Lava Golem,4,volcano,fire,tank,158,22,11,7,1.21,6,10,48,lava_golem_drop,tank
+salamander,Salamander,4,volcano,fire,skirmisher,107,23,7,7,2.53,6,10,48,salamander_drop,skirmisher
+ice_knight,Frost Knight,4,citadel,ice,fighter,122,22,9,8,2.02,6,10,48,ice_knight_drop,fighter
+storm_mage,Storm Mage,5,citadel,lightning,caster,148,36,9,15,2.2,8,10,96,storm_mage_drop,caster
+void_hound,Void Hound,5,citadel,dark,skirmisher,165,35,10,11,2.97,6,10,96,void_hound_drop,skirmisher
+boss_treant,Elder Treant,3,forest,nature,boss,346,16,5,5,1.43,8,14,96,treant_boss_drop,boss
+boss_colossus,Ancient Colossus,4,ruins,earth,boss,663,28,11,8,1.1,8,14,192,colossus_boss_drop,boss
+boss_drake,Ash Drake,5,volcano,fire,boss,1188,43,15,14,1.98,8,14,384,drake_boss_drop,boss
+boss_eclipse,Eclipse Warden,5,citadel,dark,boss,1320,46,16,16,1.87,8,14,384,eclipse_boss_drop,boss

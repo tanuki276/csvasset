@@ -1,0 +1,10 @@
+id,preferred_range,max_range,decision_interval_sec,retreat_hp_ratio,strafe_chance,movement_mode
+swarm,1.2,0.8,1.0,0.0,0.15,close_distance
+skirmisher,1.6,1.8,0.7,0.25,0.35,orbit_target
+fighter,1.4,1.2,0.8,0.1,0.2,close_distance
+ranged,5.0,7.0,1.6,0.3,0.25,keep_distance
+caster,4.5,7.5,2.0,0.35,0.2,keep_distance
+controller,3.0,6.5,2.2,0.25,0.25,kite
+charger,3.5,6.0,2.5,0.15,0.3,line_up
+tank,1.5,1.0,1.1,0.05,0.1,close_distance
+boss,3.0,8.0,1.0,0.2,0.15,phase_logic
