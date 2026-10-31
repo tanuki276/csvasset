@@ -19,6 +19,12 @@ on:
     paths:
       - "generator/**"
       - "catalog/generated_datasets.csv"
+      - "tools/validate*.py"
+      - ".github/workflows/mass-generate.yml"
+  pull_request:
+    paths:
+      - "generator/**"
+      - "catalog/generated_datasets.csv"
       - ".github/workflows/mass-generate.yml"
 
 permissions:
@@ -37,6 +43,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Validate source and regression tests
+        run: |
+          python tools/validate_csvasset.py
+          python -m unittest discover -s tests -v
       - name: Generate CSVASSET
         run: |
           python generator/generate_mass_assets.py \
@@ -51,7 +61,7 @@ jobs:
       - name: Upload generated CSVASSET
         uses: actions/upload-artifact@v4
         with:
-          name: csvasset-${{ env.ROWS }}x30-seed-${{ env.SEED }}
+          name: csvasset-v2-${{ env.ROWS }}-seed-${{ env.SEED }}
           path: generated/
           if-no-files-found: error
           retention-days: 90

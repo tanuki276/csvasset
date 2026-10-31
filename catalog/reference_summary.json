@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "seed": 2762026,
+  "rows_per_dataset": 100,
+  "packs": 30,
+  "datasets": 130,
+  "reference_rows": 13000,
+  "integration_presets": 3000,
+  "fields": 498
+}

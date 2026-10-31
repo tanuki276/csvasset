@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+factory,2.0.0,factory,engine_defined,fixed_tick,tile_grid,,reference_presets.csv|variants/belts.csv|variants/deposits.csv|variants/machines.csv|variants/research.csv,工場自動化 deterministic tuning presets

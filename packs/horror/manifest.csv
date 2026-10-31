@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+horror,2.0.0,horror,engine_defined,realtime,world_2d,,reference_presets.csv|variants/rooms.csv|variants/sanity_effects.csv|variants/supplies.csv|variants/threats.csv,ホラー探索 deterministic tuning presets

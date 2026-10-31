@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+rhythm,2.0.0,rhythm,engine_defined,audio_clock,lane_2d,,reference_presets.csv|variants/charts.csv|variants/notes.csv|variants/scoring.csv|variants/timing_windows.csv,リズム deterministic tuning presets

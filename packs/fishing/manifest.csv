@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+fishing,2.0.0,fishing,engine_defined,realtime,water_2d,,reference_presets.csv|variants/fish.csv|variants/lures.csv|variants/rods.csv|variants/waters.csv,釣り deterministic tuning presets

@@ -4,12 +4,30 @@ on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        python: ['3.10', '3.12']
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-      - run: python tools/validate_csvasset.py
+          python-version: ${{ matrix.python }}
+      - name: Validate source CSV, references, formulas and maps
+        run: python tools/validate_csvasset.py
+      - name: Regression and corruption tests
+        run: python -m unittest discover -s tests -v
+      - name: Regenerate committed references
+        run: |
+          python tools/build_reference_assets.py
+          git diff --exit-code -- catalog packs
+      - name: Generate all dataset types with nondivisible shards
+        run: |
+          python generator/generate_mass_assets.py --out generated-ci --rows-per-dataset 100 --shard-rows 37
+          python generator/validate_generated.py generated-ci

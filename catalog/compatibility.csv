@@ -6,3 +6,13 @@ tactics,action_rpg,turn_based_variant,Reuse narrative/item IDs but keep tactical
 racing,roguelike,run_modifiers,Use roguelike affixes as temporary vehicle modifiers.
 platformer,brawler,movement_plus_combat,Combine platformer movement tuning with brawler move/hitbox data.
 tower_defense,survival,base_defense,Use TD waves/towers for raid events and automated defenses.
+farming,fishing,rural_life,Combine independent crop and fishing presets; map game-day and real-second clocks explicitly.
+farming,restaurant,farm_to_table,Map crop IDs into recipe ingredients in the consumer; prices require balancing.
+factory,colony,automated_colony,Combine production rates with job and power budgets; implement resource conversion explicitly.
+card_battler,roguelike,deck_run,Select card encounters and roguelike room events with separate ID namespaces.
+metroidvania,platformer,ability_gates,Use metroidvania gates with platformer movement; validate reachability in the game engine.
+stealth,horror,tense_exploration,Combine visibility and noise presets; coordinate guard and threat state machines externally.
+space_trader,naval,trade_and_escort,Share mission concepts only; ship units and rules need explicit conversion.
+creature_collector,tactics,creature_tactics,Convert creature stats into tactical units explicitly; preserve source IDs.
+city_builder,factory,industrial_city,Map kW and resource consumption into a common simulation tick.
+visual_novel,colony,colonist_stories,Use scene and choice presets alongside colonist morale; dialogue text is authored separately.

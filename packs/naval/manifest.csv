@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+naval,2.0.0,naval,engine_defined,fixed_tick,sea_2d,,reference_presets.csv|variants/missions.csv|variants/sea_states.csv|variants/vessels.csv|variants/weapons.csv,海戦 deterministic tuning presets

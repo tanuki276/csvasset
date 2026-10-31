@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+sports,2.0.0,sports,engine_defined,fixed_tick,field_2d,,reference_presets.csv|variants/arenas.csv|variants/athletes.csv|variants/balls.csv|variants/training.csv,スポーツ deterministic tuning presets

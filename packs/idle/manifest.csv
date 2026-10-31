@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+idle,2.0.0,idle,engine_defined,elapsed_time,abstract,,reference_presets.csv|variants/offline.csv|variants/prestige.csv|variants/producers.csv|variants/upgrades.csv,放置・インクリメンタル deterministic tuning presets

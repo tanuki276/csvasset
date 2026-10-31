@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+creature_collector,2.0.0,creature-collector,engine_defined,turn_based,world_2d,,reference_presets.csv|variants/creatures.csv|variants/habitats.csv|variants/moves.csv|variants/training.csv,育成・収集 deterministic tuning presets
