@@ -1,0 +1,9 @@
+key,value,type,description
+tile_size_px,32,int,World tile size
+fixed_timestep_hz,60,int,Simulation tick rate
+max_delta_ms,100,int,Clamp for tab stalls
+base_crit_multiplier,1.50,float,Critical damage multiplier
+armor_k,50,float,Damage reduction curve constant
+max_damage_reduction,0.75,float,Hard cap for armor mitigation
+pickup_radius_tiles,0.75,float,Automatic pickup radius
+save_schema_version,1,int,Save migration version

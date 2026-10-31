@@ -1,0 +1,13 @@
+shop_id,asset_id,asset_type,stock,required_level
+shop_meadow,potion_small,item,99,1
+shop_meadow,ether_small,item,20,1
+shop_meadow,antidote,item,20,1
+shop_meadow,iron_sword,weapon,1,1
+shop_meadow,oak_bow,weapon,1,1
+shop_meadow,apprentice_staff,weapon,1,1
+shop_ruins,potion_medium,item,20,5
+shop_ruins,bomb_fire,item,10,5
+shop_ruins,steel_sword,weapon,1,5
+shop_ruins,hunter_bow,weapon,1,5
+shop_ruins,iron_cuirass,armor,1,5
+shop_ruins,ranger_coat,armor,1,5

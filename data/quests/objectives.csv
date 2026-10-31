@@ -1,0 +1,11 @@
+quest_id,sequence,objective_type,target_id,quantity,completes_quest
+q_first_steps,1,kill,slime_green,5,0
+q_first_steps,2,reach,forest_01,1,1
+q_sunseal,1,kill,boss_treant,1,0
+q_sunseal,2,collect,quest_sunseal,1,1
+q_ancient_key,1,kill,boss_colossus,1,0
+q_ancient_key,2,collect,quest_ancient_key,1,1
+q_mire_cure,1,collect,herb_green,8,0
+q_mire_cure,2,kill,bog_shaman,3,1
+q_eclipse,1,reach,citadel_boss,1,0
+q_eclipse,2,kill,boss_eclipse,1,1

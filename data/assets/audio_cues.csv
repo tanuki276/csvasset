@@ -1,0 +1,11 @@
+id,bus,path,volume,loop,max_instances
+bgm_meadow,music,assets/audio/music/meadow.ogg,0.65,1,0
+bgm_forest,music,assets/audio/music/forest.ogg,0.65,1,0
+bgm_ruins,music,assets/audio/music/ruins.ogg,0.65,1,0
+bgm_cave,music,assets/audio/music/cave.ogg,0.65,1,0
+bgm_swamp,music,assets/audio/music/swamp.ogg,0.65,1,0
+bgm_volcano,music,assets/audio/music/volcano.ogg,0.65,1,0
+bgm_citadel,music,assets/audio/music/citadel.ogg,0.65,1,0
+sfx_hit,sfx,assets/audio/sfx/hit_01.ogg,0.85,0,4
+sfx_pickup,sfx,assets/audio/sfx/pickup_01.ogg,0.75,0,3
+sfx_ui_confirm,ui,assets/audio/ui/confirm.ogg,0.7,0,2

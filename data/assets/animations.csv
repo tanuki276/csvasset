@@ -1,0 +1,11 @@
+id,start_frame,end_frame,fps,loop
+player_idle,0,3,6,1
+player_walk,4,9,10,1
+player_attack,10,15,14,0
+player_hurt,16,17,8,0
+player_die,18,23,8,0
+enemy_idle,0,3,6,1
+enemy_move,4,7,9,1
+enemy_attack,8,12,12,0
+enemy_hurt,13,14,8,0
+enemy_die,15,19,8,0

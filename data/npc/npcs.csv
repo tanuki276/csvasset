@@ -1,0 +1,5 @@
+id,name,role,stage_id,x,y,shop_id,dialogue_root
+npc_mira,Mira,merchant,meadow_01,3,8,shop_meadow,dlg_mira_root
+npc_eldric,Eldric,quest,forest_01,2,8,,dlg_eldric_root
+npc_senna,Senna,merchant,ruins_01,3,2,shop_ruins,dlg_senna_root
+npc_orin,Orin,quest,cave_01,2,2,,dlg_orin_root

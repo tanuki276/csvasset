@@ -1,0 +1,11 @@
+action,keyboard_mouse,gamepad,description
+move_up,W|ArrowUp,dpad_up,Move up
+move_down,S|ArrowDown,dpad_down,Move down
+move_left,A|ArrowLeft,dpad_left,Move left
+move_right,D|ArrowRight,dpad_right,Move right
+primary,MouseLeft|J,button_south,Primary attack
+skill_1,Q,button_west,Skill slot 1
+skill_2,E,button_north,Skill slot 2
+dash,Space,button_east,Dash
+interact,F,button_south,Interact
+pause,Escape,start,Pause

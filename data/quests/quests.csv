@@ -1,0 +1,6 @@
+id,name,type,required_level,prerequisite_quest,start_stage,target_stage,xp_reward,item_rewards
+q_first_steps,First Steps,main,1,,meadow_01,forest_01,120,potion_medium:2
+q_sunseal,The Sunseal,main,3,q_first_steps,forest_01,ruins_01,260,steel_sword:1
+q_ancient_key,The Ancient Key,main,5,q_sunseal,ruins_01,cave_01,420,crystal_blue:3
+q_mire_cure,Mire Remedy,side,9,q_ancient_key,swamp_01,swamp_01,300,antidote:3
+q_eclipse,Eclipse Warden,main,15,q_ancient_key,citadel_01,citadel_boss,1500,void_shard:2

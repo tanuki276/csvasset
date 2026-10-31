@@ -1,0 +1,6 @@
+id,speaker_id,text,next_dialogue_id,quest_id
+dlg_mira_root,npc_mira,Welcome. Stock up before the road bends into the woods.,,
+dlg_eldric_root,npc_eldric,The forest has gone quiet. Too quiet.,dlg_eldric_offer,
+dlg_eldric_offer,npc_eldric,Bring down the Elder Treant and recover the Sunseal.,,q_sunseal
+dlg_senna_root,npc_senna,"Relics, steel, and things best left unnamed.",,
+dlg_orin_root,npc_orin,The old halls answer only to the Ancient Key.,,q_ancient_key

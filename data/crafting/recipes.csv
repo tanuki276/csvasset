@@ -1,0 +1,5 @@
+id,output_id,output_qty,required_level,craft_cost
+recipe_potion_medium,potion_medium,1,2,35
+recipe_fire_bomb,bomb_fire,2,4,80
+recipe_steel_sword,steel_sword,1,5,180
+recipe_iron_cuirass,iron_cuirass,1,5,180

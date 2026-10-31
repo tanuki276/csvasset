@@ -1,0 +1,9 @@
+recipe_id,ingredient_id,quantity
+recipe_potion_medium,potion_small,1
+recipe_potion_medium,herb_green,2
+recipe_fire_bomb,ember_core,1
+recipe_fire_bomb,ore_iron,1
+recipe_steel_sword,ore_iron,6
+recipe_steel_sword,hide_beast,2
+recipe_iron_cuirass,ore_iron,8
+recipe_iron_cuirass,hide_beast,2
