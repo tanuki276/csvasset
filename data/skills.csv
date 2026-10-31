@@ -1,5 +1,0 @@
-id,name,type,power,cooldown,cost,target,effect
-slash,Slash,attack,10,0.5,0,enemy,damage
-fireball,Fireball,magic,25,2.0,10,enemy,burn
-heal,Heal,magic,0,3.0,12,self,heal_40
-dash,Dash,movement,0,1.0,0,self,dash

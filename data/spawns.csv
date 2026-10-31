@@ -1,6 +1,0 @@
-stage_id,enemy_id,x,y,count,respawn_seconds
-stage_001,slime,5,5,3,20
-stage_001,bat,12,7,2,25
-stage_001,goblin,18,10,1,30
-stage_002,skeleton,6,6,4,30
-stage_002,boss_golem,20,12,1,0

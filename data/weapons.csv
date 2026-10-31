@@ -1,5 +1,0 @@
-id,name,type,attack,range,attack_speed,projectile,price
-wood_sword,Wood Sword,melee,5,1.0,1.0,none,20
-iron_sword,Iron Sword,melee,12,1.1,0.9,none,80
-bow,Bow,ranged,8,8.0,0.8,arrow,100
-fire_wand,Fire Wand,magic,15,6.0,0.6,fireball,180

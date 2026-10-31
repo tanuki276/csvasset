@@ -1,6 +1,0 @@
-id,name,type,value,effect,value_amount,stack_max
-potion,Health Potion,consumable,20,heal,30,10
-hi_potion,Hi Potion,consumable,60,heal,100,5
-mana_potion,Mana Potion,consumable,25,restore_mp,25,10
-coin,Coin,currency,1,none,0,999
-key_bronze,Bronze Key,key,0,unlock_bronze,1,1

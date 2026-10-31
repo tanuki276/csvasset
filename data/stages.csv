@@ -1,3 +1,0 @@
-id,name,map_file,music,boss,time_limit
-stage_001,Green Fields,maps/stage_001.csv,field_theme,none,0
-stage_002,Old Dungeon,maps/stage_002.csv,dungeon_theme,boss_golem,600
