@@ -1,0 +1,6 @@
+id,name,hp,attack,defense,speed,xp,ai_type,drop_table
+slime,Slime,20,4,1,1.0,5,basic,slime_drop
+bat,Bat,14,5,0,1.6,6,flying,bat_drop
+goblin,Goblin,35,8,3,1.1,12,chase,goblin_drop
+skeleton,Skeleton,45,10,4,0.9,18,chase,skeleton_drop
+boss_golem,Golem,300,25,15,0.5,200,boss,golem_drop
