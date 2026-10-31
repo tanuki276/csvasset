@@ -4,6 +4,33 @@
 
 このリポジトリは「1本のゲームをCSV化したもの」ではありません。`shared/` の共通語彙と `packs/` のジャンル別データパックを組み合わせて使います。
 
+## Massive generation
+
+手書きPackに加えて、`generator/` から**決定的な大量チューニング候補**を生成できます。
+
+デフォルト設定:
+
+- 10ジャンル
+- 30生成データセット
+- 10,000行 / dataset
+- **300,000 generated CSV assets**
+- Tier 1–20 / Grade 0–4
+- 5,000行ごとのshard
+- SHA-256 manifest / 全行validation / 再現可能seed
+
+```bash
+python generator/generate_mass_assets.py
+python generator/validate_generated.py generated
+```
+
+件数を増やす場合:
+
+```bash
+python generator/generate_mass_assets.py --rows-per-dataset 20000
+```
+
+これで600,000行になります。巨大な派生データはGit履歴を肥大化させないため、GitHub ActionsのArtifactとして生成します。詳細は `docs/MASS_GENERATION.md` と `generator/README.md` を参照してください。
+
 ## 設計原則
 
 1. **Pack-first** — 各ジャンルは独立スキーマを持ち、不要な概念を強制しない。
@@ -13,6 +40,7 @@
 5. **Engine-neutral** — Phaser / Godot / Unity / 自作エンジンに依存しない。
 6. **Validation-first** — 構造・主キー・参照・基本レンジをCI検証。
 7. **Examples are data** — 空テンプレートではなく調整可能な実データ例を同梱。
+8. **Deterministic at scale** — 大量派生データもseedとSHA-256で再現・監査できる。
 
 ## Packs
 
@@ -54,8 +82,16 @@
 
 ## Validation
 
+手書きPack:
+
 ```bash
 python tools/validate_csvasset.py
 ```
 
-GitHub Actionsでもpush / pull request時に検証します。規約は `docs/PACK_CONTRACT.md` と `docs/CONVENTIONS.md` を参照してください。
+大量生成データ:
+
+```bash
+python generator/validate_generated.py generated
+```
+
+GitHub Actionsでも検証します。規約は `docs/PACK_CONTRACT.md` と `docs/CONVENTIONS.md` を参照してください。
