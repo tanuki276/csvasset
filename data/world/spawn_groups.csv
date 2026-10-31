@@ -1,0 +1,9 @@
+id,weighted_enemies,min_count,max_count,respawn_sec
+meadow_common,slime_green:55|wolf:30|bandit:15,2,4,10
+forest_common,bee:25|boar:35|mushroom:25|wolf:15,2,4,11
+ruins_common,skeleton:45|archer_skeleton:30|wisp:25,2,4,12
+cave_common,cave_bat:35|rock_crab:35|venom_spider:30,2,4,13
+swamp_common,swamp_blob:35|bog_shaman:25|crocodile:40,2,4,14
+volcano_common,fire_imp:35|lava_golem:30|salamander:35,2,4,15
+citadel_common,ice_knight:35|storm_mage:30|void_hound:35,2,4,16
+citadel_boss,boss_eclipse:100,1,1,0

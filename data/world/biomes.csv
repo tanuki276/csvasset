@@ -1,0 +1,8 @@
+id,name,default_floor_tile,music_cue,recommended_tier
+meadow,Sunlit Meadow,grass,bgm_meadow,1
+forest,Whispering Forest,grass,bgm_forest,1
+ruins,Old Ruins,stone,bgm_ruins,2
+cave,Crystal Cave,stone,bgm_cave,2
+swamp,Mirelands,mud,bgm_swamp,3
+volcano,Ashen Caldera,basalt,bgm_volcano,4
+citadel,Eclipse Citadel,stone,bgm_citadel,5
