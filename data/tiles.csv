@@ -1,0 +1,7 @@
+id,name,walkable,damage,friction,tag
+grass,Grass,true,0,1.0,ground
+dirt,Dirt,true,0,1.0,ground
+stone,Stone,true,0,1.0,ground
+wall,Wall,false,0,1.0,solid
+water,Water,false,0,0.8,water
+lava,Lava,true,10,1.0,hazard
