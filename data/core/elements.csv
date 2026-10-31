@@ -1,0 +1,10 @@
+id,name,color_hex,strong_vs,weak_vs
+neutral,Neutral,#D0D0D0,,
+fire,Fire,#FF7043,"nature,ice",water
+water,Water,#42A5F5,fire,"lightning,nature"
+nature,Nature,#66BB6A,water,"fire,ice"
+ice,Ice,#80DEEA,nature,fire
+lightning,Lightning,#FFD54F,water,earth
+earth,Earth,#A1887F,lightning,nature
+light,Light,#FFF59D,dark,
+dark,Dark,#7E57C2,light,

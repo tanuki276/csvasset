@@ -1,0 +1,10 @@
+id,name,category,duration_sec,tick_interval_sec,potency,max_stacks,dispel_group
+burn,Burn,dot,4,1,0.08,3,negative
+poison,Poison,dot,6,1,0.05,5,negative
+bleed,Bleed,dot,5,1,0.06,4,negative
+slow,Slow,debuff,3,0,0.3,1,negative
+stun,Stun,control,1.2,0,1,1,negative
+freeze,Freeze,control,1.6,0,1,1,negative
+shock,Shock,debuff,4,0,0.2,2,negative
+regen,Regeneration,hot,6,1,0.04,2,positive
+barrier,Barrier,shield,8,0,0.2,1,positive

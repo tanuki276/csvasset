@@ -1,0 +1,6 @@
+id,speed_tiles_sec,lifetime_sec,pierce,hit_radius
+arrow,10,1.2,0,0.18
+magic_bolt,8,1.4,0,0.22
+fireball,7,1.5,0,0.28
+venom_spit,6,1.6,0,0.25
+shadow_orb,6.5,1.8,1,0.3

@@ -1,21 +1,52 @@
 # CSVASSET
 
-2Dゲーム向けの汎用CSVデータセット集です。
+高精度な **2Dゲーム向けCSVデータセット**。  
+ゲームロジックとコンテンツを分離し、敵・戦闘・装備・アイテム・ワールド・NPC・クエスト・クラフト・アセット参照を安定したIDで接続します。
 
-ゲームロジックとデータを分離し、敵・アイテム・武器・スキル・ステージ・スポーン・ドロップ・NPCなどをCSVから読み込める構成を想定しています。
+## 設計目標
 
-## CSV files
+- **参照整合性**: 外部キー相当のIDを明示し、存在しないIDを検出できます。
+- **決定的なデータ**: ランタイムの暗黙デフォルトを減らし、敵耐性などは明示的に持ちます。
+- **段階的バランス**: Tier 1–5、プレイヤーLv1–30を想定した一貫した成長曲線。
+- **エンジン非依存**: Phaser / Godot / Unity / 独自エンジンで読み込みやすい素朴なCSV。
+- **安定キー**: ファイル名ではなく `id` / `key` をゲーム側APIとして扱います。
+- **検証可能**: `tools/validate_csv.py` で参照、確率、座標、重複、型の基本検査が可能です。
 
-- `data/enemies.csv` — 敵ステータス
-- `data/items.csv` — アイテム
-- `data/weapons.csv` — 武器
-- `data/skills.csv` — スキル
-- `data/tiles.csv` — タイル定義
-- `data/stages.csv` — ステージ設定
-- `data/spawns.csv` — 敵スポーン
-- `data/loot_tables.csv` — ドロップテーブル
-- `data/npcs.csv` — NPC
-- `data/dialogues.csv` — 会話
-- `maps/stage_001.csv` — サンプルタイルマップ
+## ディレクトリ
 
-IDを文字列で統一し、別CSVから参照できるようにしています。
+- `data/core/` — 属性、ダメージ種別、状態異常、難易度
+- `data/progression/` — レベル曲線、クラス
+- `data/combat/` — スキル、飛翔体
+- `data/enemies/` — 敵本体、AI、耐性、使用スキル
+- `data/equipment/` — 武器、防具、Affix
+- `data/items/` — 消耗品・素材・クエストアイテム
+- `data/loot/` — ドロップテーブル
+- `data/world/` — バイオーム、タイル、ステージ、接続、スポーン
+- `data/npc/` — NPC、ショップ、会話
+- `data/quests/` — クエストと目標
+- `data/crafting/` — レシピ
+- `data/assets/` — スプライト/音声等の安定キーとメタデータ（バイナリ自体は同梱しません）
+- `data/system/` — 入力アクション、ゲーム定数
+- `maps/` — 16×12のサンプルCSVタイルマップ
+- `docs/` — スキーマ・バランス設計
+- `tools/` — データ検証スクリプト
+
+## CSV規約
+
+- UTF-8 / カンマ区切り / 1行目ヘッダー
+- IDは `snake_case`
+- 空文字は「未指定」。`null` 文字列は使いません
+- ブール値は `0/1`
+- 比率は原則 `0.0–1.0`
+- 時間は秒、距離はタイル、画像寸法はpx
+- 互換性を壊す列変更時は `save_schema_version` を更新
+
+## 最初に見るファイル
+
+1. `docs/SCHEMA.md`
+2. `docs/BALANCE.md`
+3. `data/world/stages.csv`
+4. `data/enemies/enemies.csv`
+5. `tools/validate_csv.py`
+
+このリポジトリは「ゲーム素材そのもの」ではなく、**ゲームを駆動する高品質なデータアセット**を提供します。画像・音声パスは `data/assets/` で参照契約だけを定義しています。

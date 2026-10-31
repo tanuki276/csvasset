@@ -1,0 +1,4 @@
+id,name,hp_mul,attack_mul,defense_mul,resistance_mul,speed_mul,starter_weapon,starter_skill
+vanguard,Vanguard,1.2,1.05,1.2,0.95,0.92,iron_sword,power_strike
+ranger,Ranger,0.95,1.05,0.9,1.0,1.12,oak_bow,piercing_shot
+arcanist,Arcanist,0.82,1.18,0.8,1.18,1.0,apprentice_staff,ember_bolt

@@ -1,0 +1,7 @@
+skill_id,projectile_id
+piercing_shot,arrow
+poison_arrow,arrow
+ember_bolt,fireball
+shadow_orb,shadow_orb
+enemy_spit,venom_spit
+enemy_fireball,fireball

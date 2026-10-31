@@ -1,0 +1,4 @@
+id,name,armor_stat,resistance_stat,can_crit
+physical,Physical,defense,,1
+magical,Magical,resistance,,1
+true,True,,,0

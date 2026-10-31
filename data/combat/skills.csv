@@ -1,0 +1,25 @@
+id,name,kind,damage_type,element,power,heal_power,mana_cost,cooldown_sec,cast_time_sec,range_tiles,targeting,status_id
+power_strike,Power Strike,active,physical,neutral,1.6,0,0,1.2,0,1.3,melee,
+guard_break,Guard Break,active,physical,neutral,1.05,0,0,2.0,0,1.4,melee,stun
+whirlwind,Whirlwind,active,physical,neutral,1.2,0,0,4.0,0,2.3,circle,
+piercing_shot,Piercing Shot,active,physical,neutral,1.45,0,0,1.5,0,8.0,line,
+multishot,Multishot,active,physical,neutral,0.75,0,0,4.0,0,7.0,cone,
+poison_arrow,Poison Arrow,active,physical,nature,0.9,0,0,5.0,0,8.0,line,poison
+ember_bolt,Ember Bolt,active,magical,fire,1.3,0,8,1.0,0,8.0,projectile,burn
+fire_nova,Fire Nova,active,magical,fire,1.1,0,18,5.0,0,2.7,circle,burn
+frost_lance,Frost Lance,active,magical,ice,1.25,0,10,1.4,0,8.5,line,slow
+ice_prison,Ice Prison,active,magical,ice,0.55,0,22,7.0,0,6.0,target,freeze
+chain_spark,Chain Spark,active,magical,lightning,1.05,0,14,3.0,0,7.0,chain,shock
+stone_spike,Stone Spike,active,magical,earth,1.4,0,12,2.5,0,7.5,line,
+healing_light,Healing Light,active,magical,light,-0.0,1.2,16,4.0,0,6.0,target,regen
+shadow_orb,Shadow Orb,active,magical,dark,1.35,0,12,2.0,0,8.0,projectile,
+dash,Dash,utility,physical,neutral,0,0,0,2.5,0,4.5,movement,
+iron_skin,Iron Skin,buff,physical,neutral,0,0,0,8.0,0,0,self,barrier
+enemy_bite,Bite,enemy,physical,neutral,1.0,0,0,1.4,0,1.0,melee,
+enemy_claw,Claw,enemy,physical,neutral,1.1,0,0,1.8,0,1.2,melee,bleed
+enemy_spit,Venom Spit,enemy,magical,nature,0.75,0,0,3.0,0,6.0,projectile,poison
+enemy_fireball,Fireball,enemy,magical,fire,1.1,0,0,2.8,0,7.0,projectile,burn
+enemy_charge,Charge,enemy,physical,neutral,1.35,0,0,4.5,0,5.0,line,stun
+enemy_slam,Ground Slam,enemy,physical,earth,1.45,0,0,5.5,0,2.5,circle,stun
+enemy_frost,Frost Burst,enemy,magical,ice,1.0,0,0,4.0,0,4.0,circle,slow
+enemy_shadow,Shadow Pulse,enemy,magical,dark,1.2,0,0,3.5,0,5.0,circle,
