@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+city_builder,2.0.0,city-builder,engine_defined,fixed_tick,tile_grid,,reference_presets.csv|variants/buildings.csv|variants/policies.csv|variants/roads.csv|variants/utilities.csv,都市建設 deterministic tuning presets

@@ -9,3 +9,23 @@ tower_defense,1.0.0,tower-defense,top_down,fixed_tick,path_2d,shared:damage_chan
 racing,1.0.0,racing,top_down,fixed_tick,track_2d,,vehicles.csv|tracks.csv|surfaces.csv,2D top-down racing
 puzzle,1.0.0,puzzle,grid,turn_based,tile_grid,,pieces.csv|mechanics.csv|levels.csv,Grid puzzle / Sokoban-style
 brawler,1.0.0,brawler,side_view,realtime,pixel_2d,shared:damage_channels,fighters.csv|moves.csv|combos.csv,Beat-em-up / arena combat
+auto_battler,2.0.0,auto-battler,engine_defined,round_based,hex_grid,,reference_presets.csv|variants/rounds.csv|variants/shop.csv|variants/synergies.csv|variants/units.csv,オートバトラー deterministic tuning presets
+card_battler,2.0.0,card-battler,engine_defined,turn_based,board,,reference_presets.csv|variants/cards.csv|variants/encounters.csv|variants/events.csv|variants/relics.csv,カード戦闘 deterministic tuning presets
+city_builder,2.0.0,city-builder,engine_defined,fixed_tick,tile_grid,,reference_presets.csv|variants/buildings.csv|variants/policies.csv|variants/roads.csv|variants/utilities.csv,都市建設 deterministic tuning presets
+colony,2.0.0,colony,engine_defined,fixed_tick,tile_grid,,reference_presets.csv|variants/colonists.csv|variants/facilities.csv|variants/incidents.csv|variants/jobs.csv,コロニー運営 deterministic tuning presets
+creature_collector,2.0.0,creature-collector,engine_defined,turn_based,world_2d,,reference_presets.csv|variants/creatures.csv|variants/habitats.csv|variants/moves.csv|variants/training.csv,育成・収集 deterministic tuning presets
+dungeon_crawler,2.0.0,dungeon-crawler,engine_defined,turn_based,tile_grid,,reference_presets.csv|variants/doors.csv|variants/rooms.csv|variants/shrines.csv|variants/traps.csv,ダンジョン探索 deterministic tuning presets
+factory,2.0.0,factory,engine_defined,fixed_tick,tile_grid,,reference_presets.csv|variants/belts.csv|variants/deposits.csv|variants/machines.csv|variants/research.csv,工場自動化 deterministic tuning presets
+farming,2.0.0,farming,engine_defined,day_based,tile_grid,,reference_presets.csv|variants/crops.csv|variants/livestock.csv|variants/seasons.csv|variants/soil.csv,農業・牧場 deterministic tuning presets
+fishing,2.0.0,fishing,engine_defined,realtime,water_2d,,reference_presets.csv|variants/fish.csv|variants/lures.csv|variants/rods.csv|variants/waters.csv,釣り deterministic tuning presets
+flight,2.0.0,flight,engine_defined,fixed_tick,air_2d,,reference_presets.csv|variants/aircraft.csv|variants/engines.csv|variants/missions.csv|variants/weather.csv,飛行 deterministic tuning presets
+horror,2.0.0,horror,engine_defined,realtime,world_2d,,reference_presets.csv|variants/rooms.csv|variants/sanity_effects.csv|variants/supplies.csv|variants/threats.csv,ホラー探索 deterministic tuning presets
+idle,2.0.0,idle,engine_defined,elapsed_time,abstract,,reference_presets.csv|variants/offline.csv|variants/prestige.csv|variants/producers.csv|variants/upgrades.csv,放置・インクリメンタル deterministic tuning presets
+metroidvania,2.0.0,metroidvania,engine_defined,realtime,pixel_2d,,reference_presets.csv|variants/abilities.csv|variants/gates.csv|variants/rooms.csv|variants/upgrades.csv,探索アクション deterministic tuning presets
+naval,2.0.0,naval,engine_defined,fixed_tick,sea_2d,,reference_presets.csv|variants/missions.csv|variants/sea_states.csv|variants/vessels.csv|variants/weapons.csv,海戦 deterministic tuning presets
+restaurant,2.0.0,restaurant,engine_defined,realtime,tile_grid,,reference_presets.csv|variants/customers.csv|variants/dishes.csv|variants/equipment.csv|variants/staff.csv,レストラン経営 deterministic tuning presets
+rhythm,2.0.0,rhythm,engine_defined,audio_clock,lane_2d,,reference_presets.csv|variants/charts.csv|variants/notes.csv|variants/scoring.csv|variants/timing_windows.csv,リズム deterministic tuning presets
+space_trader,2.0.0,space-trader,engine_defined,realtime,sector_2d,,reference_presets.csv|variants/commodities.csv|variants/contracts.csv|variants/ports.csv|variants/ships.csv,宇宙交易 deterministic tuning presets
+sports,2.0.0,sports,engine_defined,fixed_tick,field_2d,,reference_presets.csv|variants/arenas.csv|variants/athletes.csv|variants/balls.csv|variants/training.csv,スポーツ deterministic tuning presets
+stealth,2.0.0,stealth,engine_defined,realtime,world_2d,,reference_presets.csv|variants/alert_states.csv|variants/gadgets.csv|variants/guards.csv|variants/surfaces.csv,ステルス deterministic tuning presets
+visual_novel,2.0.0,visual-novel,engine_defined,event_based,screen_2d,,reference_presets.csv|variants/characters.csv|variants/choices.csv|variants/presentation.csv|variants/scenes.csv,ビジュアルノベル deterministic tuning presets

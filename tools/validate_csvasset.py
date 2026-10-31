@@ -11,7 +11,8 @@ def ids(p,k='id'):
     if len(v)!=len(set(v)):fail(f'{p}: duplicate {k}')
     return set(v)
 # generic CSV structure; raw ARPG maps are headerless grids
-for p in R.rglob('*.csv'):
+csv_files = [p for directory in ('packs','shared','catalog') for p in (R/directory).rglob('*.csv')]
+for p in csv_files:
     rel=p.relative_to(R)
     if rel.parts[:3]==('packs','action_rpg','maps'):continue
     with p.open(encoding='utf-8',newline='') as f: a=list(csv.reader(f))
@@ -20,11 +21,14 @@ for p in R.rglob('*.csv'):
     if len(a[0])!=len(set(a[0])):fail(f'{rel}: duplicate header')
     for i,row in enumerate(a[1:],2):
         if len(row)!=n:fail(f'{rel}:{i}: wrong field count')
+    if any(len(row)!=n for row in a[1:]):continue
     if 'id' in a[0]:
         ix=a[0].index('id'); vals=[x[ix] for x in a[1:]]
         if len(vals)!=len(set(vals)):fail(f'{rel}: duplicate id')
         for v in vals:
-            if v and not ID.match(v):fail(f'{rel}: invalid id {v}')
+            if not v or not ID.match(v):fail(f'{rel}: invalid id {v}')
+if E:
+    print('\n'.join(E)); sys.exit(1)
 # pack contract
 packs={r['pack_id']:r for r in rd('catalog/packs.csv')}; dirs={p.name for p in (R/'packs').iterdir() if p.is_dir()}
 if set(packs)!=dirs:fail('catalog pack list != directories')
@@ -114,6 +118,11 @@ for r in ard('data/enemies/enemy_skills.csv'):
 for r in ard('data/enemies/enemy_resistances.csv'):rc[r['enemy_id']]+=1
 for e in enemies:
     if w[e]!=100 or rc[e]!=len(el-{'neutral'}):fail(f'action_rpg enemy {e}: incomplete weights/resistances')
+# v2 semantic checks are part of the single public validation entrypoint.
+from validate_integrity import validate as validate_integrity
+from validate_reference_assets import validate as validate_reference
+E.extend(validate_integrity(R))
+E.extend(validate_reference(R))
 if E:
     print('CSVASSET validation FAILED'); [print(' -',x) for x in E]; sys.exit(1)
-print(f'CSVASSET validation OK: {len(list(R.rglob("*.csv")))} CSV files across {len(packs)} packs')
+print(f'CSVASSET validation OK: {len(csv_files)} CSV files across {len(packs)} packs')

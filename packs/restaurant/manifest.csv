@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+restaurant,2.0.0,restaurant,engine_defined,realtime,tile_grid,,reference_presets.csv|variants/customers.csv|variants/dishes.csv|variants/equipment.csv|variants/staff.csv,レストラン経営 deterministic tuning presets

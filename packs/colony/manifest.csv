@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+colony,2.0.0,colony,engine_defined,fixed_tick,tile_grid,,reference_presets.csv|variants/colonists.csv|variants/facilities.csv|variants/incidents.csv|variants/jobs.csv,コロニー運営 deterministic tuning presets

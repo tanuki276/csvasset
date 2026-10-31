@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+dungeon_crawler,2.0.0,dungeon-crawler,engine_defined,turn_based,tile_grid,,reference_presets.csv|variants/doors.csv|variants/rooms.csv|variants/shrines.csv|variants/traps.csv,ダンジョン探索 deterministic tuning presets

@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+visual_novel,2.0.0,visual-novel,engine_defined,event_based,screen_2d,,reference_presets.csv|variants/characters.csv|variants/choices.csv|variants/presentation.csv|variants/scenes.csv,ビジュアルノベル deterministic tuning presets

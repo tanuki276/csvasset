@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+metroidvania,2.0.0,metroidvania,engine_defined,realtime,pixel_2d,,reference_presets.csv|variants/abilities.csv|variants/gates.csv|variants/rooms.csv|variants/upgrades.csv,探索アクション deterministic tuning presets

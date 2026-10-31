@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+stealth,2.0.0,stealth,engine_defined,realtime,world_2d,,reference_presets.csv|variants/alert_states.csv|variants/gadgets.csv|variants/guards.csv|variants/surfaces.csv,ステルス deterministic tuning presets

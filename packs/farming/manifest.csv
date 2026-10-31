@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+farming,2.0.0,farming,engine_defined,day_based,tile_grid,,reference_presets.csv|variants/crops.csv|variants/livestock.csv|variants/seasons.csv|variants/soil.csv,農業・牧場 deterministic tuning presets

@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+space_trader,2.0.0,space-trader,engine_defined,realtime,sector_2d,,reference_presets.csv|variants/commodities.csv|variants/contracts.csv|variants/ports.csv|variants/ships.csv,宇宙交易 deterministic tuning presets

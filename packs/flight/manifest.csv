@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+flight,2.0.0,flight,engine_defined,fixed_tick,air_2d,,reference_presets.csv|variants/aircraft.csv|variants/engines.csv|variants/missions.csv|variants/weather.csv,飛行 deterministic tuning presets

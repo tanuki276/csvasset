@@ -1,0 +1,2 @@
+pack_id,schema_version,genre,perspective,time_model,coordinate_model,dependencies,entrypoints,description
+auto_battler,2.0.0,auto-battler,engine_defined,round_based,hex_grid,,reference_presets.csv|variants/rounds.csv|variants/shop.csv|variants/synergies.csv|variants/units.csv,オートバトラー deterministic tuning presets
