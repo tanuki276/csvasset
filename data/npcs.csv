@@ -1,0 +1,3 @@
+id,name,stage_id,x,y,dialogue_id,shop
+elder,Village Elder,stage_001,3,4,elder_intro,false
+merchant,Merchant,stage_001,8,3,merchant_hello,true
